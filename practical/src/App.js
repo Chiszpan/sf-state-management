@@ -1,9 +1,14 @@
 import React from "react";
 import './App.css';
+import Vehicle from "./components/Vehicle/Vehicle";
+import Example from "./components/Example/Example";
 
 function App() {
   return (
-    <div className="App"/>
+    <>
+      <Vehicle speed={50}/>
+      <Example/>
+    </>
   );
 }
 
